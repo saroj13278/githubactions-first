@@ -1,7 +1,8 @@
 name:first_test
 on:workflow_dispatch
 jobs:
-  runs_on:ubuntu-latest
-  steps:
-    name:firest-step
-    run: echo "Hello-wordl"
+  first_job:
+    runs_on:ubuntu-latest
+    steps:
+      - name:firest-step
+      run: echo "Hello-wordl"
